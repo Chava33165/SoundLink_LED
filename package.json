@@ -5,15 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "base-64": "^1.0.0",
+    "base64-js": "^1.5.1",
     "expo": "~54.0.12",
+    "expo-av": "~16.0.7",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-native": "0.81.4",
+    "react-native-ble-plx": "^3.5.0",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-svg": "15.12.1",
+    "react-native-worklets": "0.5.1"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "expo": "^54.0.12"
+  }
 }
